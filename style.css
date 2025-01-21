@@ -1,0 +1,377 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header .navbar-brand,
+.navbar-nav {
+    margin: 0px 50px;
+}
+
+.header .navbar-brand img {
+    width: 200px;
+}
+
+.header .navbar-nav .nav-item .nav-link {
+    margin: 0px 20px;
+    color: black;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.header .header-btn {
+    margin-left: 30px !important;
+    background: #ffc107 !important;
+    border: none;
+    padding: 10px 20px;
+}
+.headingFontFamily{
+    font-family: Montserrat, sans-serif;
+    font-weight: 400;
+    font-size: 35px;
+    
+}
+span.font-weight{
+    font-weight:normal;
+}
+
+/* Section main1 */
+.mainSection1{
+    /* background-color: #f3c949; */
+/* background:linear-gradient(to left, #fedc7f,#c6a749,#ffce3b,#ffc107,#b78f00,#6b5700,#2e2900) ; */
+background: radial-gradient(circle at 50% 50%, rgba(0, 0, 0, 1) 0%, rgba(255, 255, 255, 1) 0%, rgba(0, 0, 0, 1) );
+
+width: 100%;
+margin: 0;
+padding: 0;
+}
+.mainSection{
+    display: flex;
+    justify-content: center;
+}
+.section-btn{
+    float: none;
+    color: #ffffff;
+    cursor: pointer;
+    background-color: #050505;
+    border-radius: 4px;
+    border: none;
+    align-items: stretch;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+    padding: 15px 30px;
+    font-family: Montserrat,sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    display: inline-block;
+    overflow: visible;
+    /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+}
+.section-btn:hover{
+    background-color: #05050592;
+
+}
+.mainh1{
+    max-width: none;
+    color: #000;
+    text-align: center;
+    letter-spacing: -1px;
+    text-shadow: 0 2px 6px rgba(0,0,0,.18);
+    object-fit: fill;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    padding-left: 0;
+    padding-right: 0;
+    font-family: Montserrat,sans-serif;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 78px;
+}
+.mainpara{
+text-align: center;
+}
+.strong{
+   font-weight: bold; 
+}
+/* ====================    SECTION NO 2  ====================== */
+
+.home.sectionNo2.threeDimage{
+    display: inline-block;
+    display: flex;
+    align-items: center ;
+    width: 100%;
+    max-width: 10000px;
+    margin-top: -117px;
+    vertical-align: middle;
+    box-sizing: border-box;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+     /* position: absolute; 
+        position: relative;
+        position: fixed;
+     left: 0px;
+     top: 0px;
+     z-index: -1; */
+      
+}
+
+/* section 3 & 4  */
+
+.subhd{
+    font-family: oboto, sans-serif;
+    font-size: 20px;
+    font: weight 300;
+    line-height: 28px;
+    opacity:0.6 ;
+}
+/* .home.section3.subp{
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    opacity:0.8 ;
+} */
+.image1{
+    width: 90%;
+    border-radius: 7px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.cardimg{
+    border-radius: 7px;  
+}
+/* =====================     SECTION 5   ================= */
+.mainpara5{
+    font-size: 23px;
+}
+.mainSection5{
+    background:linear-gradient(to left, #fedc7f,#c6a749,#ffce3b,#ffc107,#b78f00,#6b5700,#2e2900) ;
+width: 100%;
+margin: 0 40px;
+}
+
+.sectionNo5.linkHr{
+   display: inline;
+}
+.smallLink{
+    text-decoration: none;
+    
+}
+a:link{
+    text-decoration: none;
+}
+/* a:hover {
+    text-decoration:overline;
+    color: black;
+    
+  } */
+/* ==================== */
+
+.secondLast.h3-pricing{
+    width: 100%;
+}
+h3{
+    color: #586168;
+    background-color: transparent;
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-family: Roboto,sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+}
+.price{
+    color: #000;
+    font-family: Libre Franklin;
+    font-size: 72px;
+    font-weight: 800;
+    line-height: 78px;
+}
+.currency{
+    color: #999;
+    margin-top: 40px;
+    margin-left: 10px;
+    font-family: IBM Plex Mono;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.small{
+    color: #999;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: IBM Plex Mono;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+}
+.cardStyle{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.card-btn{
+    float: none;
+    color: #ffffff;
+    background-color: #050505;
+    border-radius: 4px;
+    border: none;
+    
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+    padding: 15px 30px;
+    font-family: Montserrat,sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    overflow: visible;
+}
+/* ******************************* */
+
+
+/* .linkdirection{
+    flex-direction: column;
+    flex: 1;
+    margin-top: 0;
+    padding-right: 0;
+    display: flex;
+} */
+
+
+.allLinks{
+    color: #fff;
+    margin-top: 10px;
+    margin-bottom: 0;
+    font-family: Libre Franklin;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 18px;
+    text-decoration: none;
+    transition: color .2s;
+    
+}
+.footimg{
+    width: 20%;
+}
+.footIcon{
+    color: #050505;
+    gap: 10px;
+
+}
+
+.imgIcon{
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 100px;
+gap: 20px;
+}
+
+/* .footerOf.allLinks:hover{
+background-color: black;
+opacity: 0.4;
+} */
+
+@media (max-width:1300px) {
+
+
+    .header .navbar-brand img {
+        width: 200px;
+    }
+
+    .header .navbar-nav .nav-item .nav-link {
+        margin: 0px 10px;
+        color: black;
+        font-weight: 300;
+        font-size: 17px;
+    }
+}
+
+/* ========================================================= */
+
+div.spfsection{
+    max-width: none;
+    color: #000;
+    text-align: center;
+    letter-spacing: -1px;
+    text-shadow: 0 2px 6px rgba(0,0,0,.18);
+    object-fit: fill;
+    margin-top: 160px;
+    margin-bottom: 200px;
+    margin-left: 0;
+    
+    padding-left: 0;
+    padding-right: 0;
+    font-family: Montserrat,sans-serif;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 78px;
+}
+
+/* ===================  SCANDY PRO SECTION 2======================= */
+
+.text-span {
+    color: #000;
+    font-family: Montserrat,sans-serif;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 55px;
+}
+.description {
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 28px;
+}
+.paradiscription.p{
+    margin-bottom: 10px;
+    font-family: Roboto,sans-serif;
+    
+    /* text-align: center; */
+}
+.disc-2{
+    width: 100%;
+    flex-direction: column;
+    flex: auto;
+    align-self: center;
+    padding-left: 50px;
+    padding-right: 15px;
+    display: flex;
+}
+.sideImages{
+    max-width: 400px;
+    opacity: 1;
+    padding-left: 10px;
+    padding-right: 50px;
+    overflow: visible;
+    
+}
+.mainhandle{
+    align-items: center;
+    display: flex;
+    justify-content:center;
+}
+
+@media (max-width:1200px) {
+    .header .navbar-nav .nav-item .nav-link {
+        margin: 0px 8px;
+    }
+
+    .header .navbar-brand img {
+        width: 150px;
+    }
+
+    .header .navbar-brand,
+    .navbar-nav {
+        margin: 0px 30px;
+    }
+}
+
+@media (max-width:1020px) {
+    .header .navbar-nav .nav-item .nav-link {
+        margin: 0px 5px;
+    }
+}
+
+/* 
+d29b00 e1a700 f0b400 ffc107 ffce23 ffdb35 ffe945
+*/
